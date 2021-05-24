@@ -19,4 +19,4 @@ b = "Hola"
 ```python
 password = "contraseña"	
 ```
-10. Reescribir la variable password hasta que el resultado sea este --> Cuntresiñte10
+10. Reescribir la variable password hasta que el resultado sea este --> Cuntresiñe10
