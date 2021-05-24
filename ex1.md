@@ -7,7 +7,6 @@ lorem = "Contrary to popular belief, Lorem Ipsum is not simply random text. It h
 a = "hola"
 b = "Hola"
 ```
-
 2. Del texto referenciado en la variable lorem:
 	a. Indicar cuántas veces aparece la palabra "it"
 	b. Podemos encontrar la palabra "Ipsum" en el mismo?
@@ -18,6 +17,6 @@ b = "Hola"
 
 3. Encriptar contraseña:
 ```python
-password = "contraseña"
+password = "contraseña"	
 ```
-	a. Reescribir la variable password hasta que el resultado sea este --> eñan3tr5as10co
+	a. Reescribir la variable password hasta que el resultado sea este --> Cuntresiñte10
