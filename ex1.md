@@ -8,15 +8,15 @@ a = "hola"
 b = "Hola"
 ```
 2. Del texto referenciado en la variable lorem:
-	a. Indicar cuántas veces aparece la palabra "it"
-	b. Podemos encontrar la palabra "Ipsum" en el mismo?
-	c. Cuántas palabras tiene el texto en total?
-	d. En qué posición aparece el nombre Richard?
-	e. Guardarlo en una variale e imprimirlo en minúsculas
-	f. Guardar todas las palabras en una lista
+3. Indicar cuántas veces aparece la palabra "it"
+4. Podemos encontrar la palabra "Ipsum" en el mismo?
+5. Cuántas palabras tiene el texto en total?
+6. En qué posición aparece el nombre Richard?
+7. Guardarlo en una variale e imprimirlo en minúsculas
+8. Guardar todas las palabras en una lista
 
-3. Encriptar contraseña:
+9. Encriptar contraseña:
 ```python
 password = "contraseña"	
 ```
-	a. Reescribir la variable password hasta que el resultado sea este --> Cuntresiñte10
+10. Reescribir la variable password hasta que el resultado sea este --> Cuntresiñte10
