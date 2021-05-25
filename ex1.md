@@ -20,10 +20,12 @@ b = "Hola"
 password = "contraseña"	
 ```
 
-10. Reescribir la variable password hasta que el resultado sea este --> Cuntresiñe10
+10. Reescribir la variable password hasta que el resultado sea este --> **Cuntresiñe10**
 
 11. Del texto referenciado en la variable lorem:
 12. Si el texto tiene más de 100 palabras imprimirlo en mayúsculas
 13. Si el texto tiene más de 80 palabras, reemplazar Richard por Ricardo
 14. Si tiene menos reemplazar Virginia por Salamanca
 
+15. Solicitar al usuario una palabra e indicarle si la misma se encuentra o no en el texto.
+16. RPS
