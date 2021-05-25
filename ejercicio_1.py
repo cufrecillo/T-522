@@ -72,13 +72,36 @@ password = "contraseña"
 # edad = 15
 # edad = str(edad) --> convertir de int a str
 longitud_password = len(password)
+# print(lista_palabras)
 password = password + str(longitud_password)
-print("Actualmente la variable password guarda la siguiente string: {}".format(password))
+# print(f"Actualmente la variable password guarda la siguiente string: {password}")
 password = password.capitalize()
-print(f"Actualmente la variable password guarda la siguiente string: {password}")
+# print(f"Actualmente la variable password guarda la siguiente string: {password}")
 password = password.replace("o", "u")
-print("3: ", password)
+# print("3: ", password)
 password = password.replace("a", "e")
-print("4: ", password)
+# print("4: ", password)
 
+# EJERCICIOS CONDICIONALES: IF, ELIF, ELSE
+lista_palabras = lorem.split(" ")
+cantidad_palabras = len(lista_palabras)
 
+# if cantidad_palabras  >= 100: 
+    # print("Se ha ejecutado el IF")
+
+    # if cantidad_palabras  >= 80:
+        # print("Se ha ejecutado el ELIF")
+
+    # elif cantidad_palabras < 80 and cantidad_palabras > 0:
+    #     print("Se he ejecutado el ELSE")
+
+# if cantidad_palabras <= 100 or cantidad_palabr  as >= 150:
+#     print("El texto se encuentra en un rango de 120 a 130 palabras")
+
+user = input("Search bar: ")
+indice_palabra_encontrada = lorem.find(user)
+print(lorem[0:10])
+if indice_palabra_encontrada> -1:
+   print(f"{lorem[indice_palabra_encontrada: indice_palabra_encontrada + 30]}...")
+else:
+    print("Palabra no encontrada")
