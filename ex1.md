@@ -8,19 +8,19 @@ a = "hola"
 b = "Hola"
 ```
 2. Del texto referenciado en la variable lorem:
-3. Indicar cuántas veces aparece la palabra "it"
-4. Podemos encontrar la palabra "Ipsum" en el mismo?
-5. Cuántas palabras tiene el texto en total?
-6. En qué posición aparece el nombre Richard?
-7. Guardarlo en una variale e imprimirlo en minúsculas
-8. Guardar todas las palabras en una lista
+    * Indicar cuántas veces aparece la palabra "it"
+    * Podemos encontrar la palabra "Ipsum" en el mismo?
+    * Cuántas palabras tiene el texto en total?
+    * En qué posición aparece el nombre Richard?
+    * Guardarlo en una variale e imprimirlo en minúsculas
+    * Guardar todas las palabras en una lista
 
-9. Encriptar contraseña:
-```python
+3. Encriptar contraseña:
+* ```python
 password = "contraseña"	
 ```
 
-10. Reescribir la variable password hasta que el resultado sea este --> **Cuntresiñe10**
+    * Reescribir la variable password hasta que el resultado sea este --> **Cuntresiñe10**
 
 11. Del texto referenciado en la variable lorem:
 12. Si el texto tiene más de 100 palabras imprimirlo en mayúsculas
