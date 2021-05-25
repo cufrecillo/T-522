@@ -27,5 +27,3 @@ password = "contraseña"
 13. Si el texto tiene más de 80 palabras, reemplazar Richard por Ricardo
 14. Si tiene menos reemplazar Virginia por Salamanca
 
-15. Reescribir la variable password hasta que el resultado sea este --> Cuntresiñe10
-
