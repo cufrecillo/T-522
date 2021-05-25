@@ -16,16 +16,17 @@ b = "Hola"
     * Guardar todas las palabras en una lista
 
 3. Encriptar contraseña:
-* ```python
+
+```python
 password = "contraseña"	
 ```
+* Reescribir la variable password hasta que el resultado sea este --> **Cuntresiñe10**
 
-    * Reescribir la variable password hasta que el resultado sea este --> **Cuntresiñe10**
 
-11. Del texto referenciado en la variable lorem:
-12. Si el texto tiene más de 100 palabras imprimirlo en mayúsculas
-13. Si el texto tiene más de 80 palabras, reemplazar Richard por Ricardo
-14. Si tiene menos reemplazar Virginia por Salamanca
+4. Del texto referenciado en la variable lorem:
+    * Si el texto tiene más de 100 palabras imprimirlo en mayúsculas
+    * Si el texto tiene más de 80 palabras, reemplazar Richard por Ricardo
+    * Si tiene menos reemplazar Virginia por Salamanca
 
-15. Solicitar al usuario una palabra e indicarle si la misma se encuentra o no en el texto.
-16. RPS
+5. Solicitar al usuario una palabra e indicarle si la misma se encuentra o no en el texto.
+6. RPS

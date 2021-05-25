@@ -67,6 +67,18 @@ lista_palabras = lorem.split(" ")
 # print(lista_palabras[0])
 # lista_ejemplo = [1, "una palabra", 3, 4, 5]
 # print(lista_ejemplo[1])
-
+# print(lista_palabras)
 password = "contraseña"
+# edad = 15
+# edad = str(edad) --> convertir de int a str
+longitud_password = len(password)
+password = password + str(longitud_password)
+print("Actualmente la variable password guarda la siguiente string: {}".format(password))
 password = password.capitalize()
+print(f"Actualmente la variable password guarda la siguiente string: {password}")
+password = password.replace("o", "u")
+print("3: ", password)
+password = password.replace("a", "e")
+print("4: ", password)
+
+
