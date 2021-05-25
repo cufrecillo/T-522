@@ -19,13 +19,13 @@ b = "Hola"
 ```python
 password = "contraseña"	
 ```
-<<<<<<< HEAD
-	a. Reescribir la variable password hasta que el resultado sea este --> Cuntresiñe10
 
-4. Del texto referenciado en la variable lorem:
-	a. Si el texto tiene más de 100 palabras imprimirlo en mayúsculas
-	b. Si el texto tiene más de 80 palabras, reemplazar Richard por Ricardo
-	c. Si tiene menos reemplazar Virginia por Salamanca
-=======
 10. Reescribir la variable password hasta que el resultado sea este --> Cuntresiñe10
->>>>>>> 1094d11105069d55b6e9979a0140dbbe7e57fe9d
+
+11. Del texto referenciado en la variable lorem:
+12. Si el texto tiene más de 100 palabras imprimirlo en mayúsculas
+13. Si el texto tiene más de 80 palabras, reemplazar Richard por Ricardo
+14. Si tiene menos reemplazar Virginia por Salamanca
+
+15. Reescribir la variable password hasta que el resultado sea este --> Cuntresiñe10
+
