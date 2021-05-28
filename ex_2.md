@@ -36,11 +36,14 @@ students = [ "Pedro", "Luís", "Marta", "Germán", "Macarena", "Marcelo", "Epifa
 
 4. Pantalla por cada estudiante: El estudiante {estudiante} ocupa el lugar {}
 
+**Si habéis llegado hasta aquí, decidme :)**
+
 ```python
 approved_students = ["Pedro", "Felipe", "Macarena", "Epifanio"]
 ```
 
-* Los estudiantes indicados arriba han aprobado el curso, el resto no
+* Los estudiantes indicados arriba han aprobado el curso, el resto no :S
+
 5. Considerando el punto anterior y con la ayuda del operador **in** mostrar por pantalla:
 
 El estudiante {estudiante} ha aprobado/suspendido
@@ -49,4 +52,10 @@ El estudiante {estudiante} ha aprobado/suspendido
 
 7. Permitir al user buscar un estudiante y de encontrarlo, preguntar por qué nombre quiere cambiarlo
 
+* Algunos estudiantes serán asignados a un nuevo curso y el user es quién puede decidirlo
 
+```python
+new_course = []
+```
+
+8. Permitir al user indicar un nombre de la lista **students** y así poder unirlo a la lista vacía **new_course**
