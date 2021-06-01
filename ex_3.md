@@ -4,10 +4,11 @@ Crea una aplicación que permita al usuario elegir un tipo de unidad a convertir
 
 La aplicación tendrá un menú principal y varios submenús.
 
-Luego de obtener el resultado de cada operación se le dara al user dos opciones, volver al menú principal o salir de la aplicación
+Luego de obtener el resultado de cada operación, se le dara al user dos opciones, volver al menú principal o salir de la aplicación.
 
 #### Menú principal
 
+<br>
 1. Longitud
 2. Volumen
 3. Masa
