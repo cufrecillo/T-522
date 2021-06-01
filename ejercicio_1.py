@@ -1,3 +1,5 @@
+import random
+
 # nombre = "Vito"
 # apellido = "Genovese" # Designo apellido
 # space = " "
@@ -24,7 +26,7 @@ lorem = "Contrary to popular belief, Lorem Ipsum is not simply random text. It h
 
 a = "hola"
 b = "Hola"
-
+# print(f"{a} hola")
 # EJERCICIO 1:
 # print(a.title()== b)
 # print(a.capitalize() == b)
@@ -50,7 +52,7 @@ resultado = lorem[limite_inferior: 171]
 resultado = resultado.lower()
 # print(resultado)
 
-lista_palabras = lorem.split(" ") #Ejercicio 7
+lista_palabras = lorem.split(" ")  # Ejercicio 7
 resultado = lista_palabras[30].lower()
 
 # Explicación:
@@ -82,26 +84,86 @@ password = password.replace("o", "u")
 password = password.replace("a", "e")
 # print("4: ", password)
 
-# EJERCICIOS CONDICIONALES: IF, ELIF, ELSE
+# EJERCICIOS CONDICIONALES: IF, ELIF, ELSE (Ej. 4)
 lista_palabras = lorem.split(" ")
 cantidad_palabras = len(lista_palabras)
+# print(lista_palabras)
+# if cantidad_palabras  >= 100:
+# print("Se ha ejecutado el IF")
 
-# if cantidad_palabras  >= 100: 
-    # print("Se ha ejecutado el IF")
+# if cantidad_palabras  >= 80:
+# print("Se ha ejecutado el ELIF")
 
-    # if cantidad_palabras  >= 80:
-        # print("Se ha ejecutado el ELIF")
-
-    # elif cantidad_palabras < 80 and cantidad_palabras > 0:
-    #     print("Se he ejecutado el ELSE")
+# elif cantidad_palabras < 80 and cantidad_palabras > 0:
+#     print("Se he ejecutado el ELSE")
 
 # if cantidad_palabras <= 100 or cantidad_palabr  as >= 150:
 #     print("El texto se encuentra en un rango de 120 a 130 palabras")
 
-user = input("Search bar: ")
-indice_palabra_encontrada = lorem.find(user)
-print(lorem[0:10])
-if indice_palabra_encontrada> -1:
-   print(f"{lorem[indice_palabra_encontrada: indice_palabra_encontrada + 30]}...")
-else:
-    print("Palabra no encontrada")
+# EJERCICIO 5:
+# user = input("Search in Lorem: ")
+# indice = lorem.find(user)
+# print(indice)
+# if lorem.find(user) > -1:
+#     print("Palabra encontrada!")
+# else:
+#     print("La palabra no se encuentra en el texto")
+
+# cadena = "Natura non facit saltum"
+# indice_encontrado = 7
+# print(cadena[indice_encontrado:indice_encontrado + 6])
+
+
+# EJERCICIO 6 (RPS):
+
+# user = input("Elige: ")
+# alternatives = ["rock", "paper", "scissors"] # ["rock", "scissors"]
+# # print(type(alternatives))
+# pc = random.choice(alternatives)
+# print(pc)
+# tie = "Tie!"
+# win = "Win!"
+# lose = "Lose!"
+
+
+# if user == pc:
+#     print(tie)
+# else:
+#     alternatives.pop(alternatives.index(user))
+#     if pc == alternatives[0] and user != "paper":
+#         print(lose)
+#     else:
+#         print(win)
+
+# sorted y sort 
+test = [2,1.4,4,3] # lista de char
+test_ordenado = sorted(test)
+# print(test_ordenado)
+
+test_2 = [2,1.4,4,3]
+test_2.sort(reverse=True)
+print(test_2)
+
+
+
+# roca = "rock"
+# print(roca[0:3])
+# alternatives = ["rock", "paper", "scissors"]
+# print(alternatives[0:3])
+# user_index = alternatives.index(user)
+# print(alternatives.pop(user_index))
+# print(alternatives)
+
+# print("---------------------------------")
+# print("#################################")
+# print("---------------------------------")
+
+# hola = "hola"
+# print(hola)
+# hola_mayus = hola.upper()
+# print(hola_mayus)
+
+# test_lista = [1,2,3,4]
+# print(test_lista)
+# test_lista_con_s = test_lista.append("s")
+# print(test_lista_con_s)
