@@ -30,4 +30,4 @@ Luego de obtener el resultado de cada operación se le dara al user dos opciones
 
 #### velocidad
 
-1. m/s --> km/h
+1. m/s (mts. sobre segundo)--> km/h
