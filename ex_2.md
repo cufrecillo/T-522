@@ -30,7 +30,7 @@ students = [ "Pedro", "Luís", "Marta", "Germán", "Macarena", "Marcelo", "Epifa
 
 1. Con la ayuda de una iteracción, mostrar todos los nombres en mayúsculas
 
-2. Mostrar todos los nombres con el sufijo "lo"
+2. Mostrar por panatalla todos los nombres agregando el sufijo "lo"
 
 3. Cuántos nombres empiezan con la letra "M"?
 
