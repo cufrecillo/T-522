@@ -151,11 +151,6 @@ while user != "q":
         user = input("Continuar... ")
 
     elif user == "5":  # CREATE BOOK
-        # new_book["id"] = input("id: ")    
-        # new_book["title"] = input("title: ")
-        # new_book["author"] = input("author: ")
-        # new_book["genre"] = input("genre: ")
-
         new_book = {}
         keys = list(bookshop[0].keys()) # LAS CLAVES DEL DICCIONARIO == LIST(BOOKSHOP[0])
         book_id = "nb_" + str(len(bookshop))
@@ -169,16 +164,41 @@ while user != "q":
         new_book[keys[-1]] = user_genre 
         bookshop.append(new_book)
 
-    elif user == "6":
+    elif user == "6": # UPDATE BOOK
+        count = 0
         book_id = input("ID: ") # dc_1
         for book in bookshop: 
             if book["id"] == book_id:
-                for i, tupla in enumerate(book.items()):
-                    print(f"{i + 1}. {tupla[0]}: {tupla[1]}")
-                user = int(input("Choose: ")) - 1
-                keys = list(book.keys())
-                key_to_update = keys[user]
-                book[key_to_update] = input(f"{book[key_to_update]} será modificado por: ")
+                count += 1
+                if count > 1:
+                    print(f"ALERT! You have {count} books designed with the same id!")
+                    user = input("Do you want to change it? (Y/N): ")
+                    if user.lower() == "y":
+                        print(book)
+                        book_id = input("New id: ")
+                        book["id"] = book_id
+                else:
+                    for i, tupla in enumerate(book.items()):
+                        print(f"{i + 1}. {tupla[0]}: {tupla[1]}")
+                    user = int(input("Choose: ")) - 1
+                    keys = list(book.keys())
+                    key_to_update = keys[user] # type(keys) == list, user es una posición --> key_to_update = alguna de las claves
+                    book[key_to_update] = input(f"{key_to_update}: ")
+
+    
+
+    elif user == "7": # DELETE BOOK
+        book_id = input("ID: ")
+        bookshop.findAndDelete(book_id)
+        for book in bookshop:
+            if book["id"] == book_id:
+                for k, v in book.items(): # IMPRIMIR LAS SPECS DEL LIBRO
+                    print(f"{k}: {v}")
+                user = input(f"The book {book['title']} will be erase from the db. Are you sure (Y/N)?: ")
+                if user.lower() == "y":
+                    bookshop.remove(book)
+                    print("The book was erased")
+                                
 
     elif user.lower() == "q":
         user = user.lower()
