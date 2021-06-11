@@ -86,16 +86,18 @@ while user != "q":
 
     if user == "1":
         book_id = input("ID: ") # dc_1
+
         for book in bookshop: 
             if book["id"] == book_id:
-                print("".center(50,"-"))
-                print(f"ID: {book['id']}")
-                print(f"Author: {book['author']}")
-                print(f"Title: {book['title']}")
-                print(f'Genre: {book["genre"]}')
-                print("".center(50,"-"))
-                # for k,v in book.items():
-                #     print(f"{k}: {v}")
+        #         print("".center(50,"-"))
+        #         print(f"ID: {book['id']}")
+        #         print(f"Author: {book['author']}")
+        #         print(f"Title: {book['title']}")
+        #         print(f'Genre: {book["genre"]}')
+        #         print("".center(50,"-"))
+
+                for k,v in book.items():
+                    print(f"{k}: {v}")
                 
     elif user == "2":
         user_author = input("Author: ").lower()
@@ -184,12 +186,13 @@ while user != "q":
                     keys = list(book.keys())
                     key_to_update = keys[user] # type(keys) == list, user es una posición --> key_to_update = alguna de las claves
                     book[key_to_update] = input(f"{key_to_update}: ")
+                    #una pequeña modificación
+
 
     
 
     elif user == "7": # DELETE BOOK
         book_id = input("ID: ")
-        bookshop.findAndDelete(book_id)
         for book in bookshop:
             if book["id"] == book_id:
                 for k, v in book.items(): # IMPRIMIR LAS SPECS DEL LIBRO
