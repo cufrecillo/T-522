@@ -61,13 +61,6 @@ bookshop = [{
 ]
 
 
-
-# id_book = "dc_1"
-
-# for book in bookshop: 
-#     if book["id"] == id_book:
-#         print(book)
-
 def menu():
     print("Bookshop".center(50, "-"))
     print("1. ID")
@@ -137,7 +130,6 @@ while user != "q":
             print_pretty(book)
             print("------------")
 
-
     elif user == "3": # GET BY TITLE
         user_title = input("Title: ").lower()
         books_by_title = books_by_key(user_title, bookshop, "title")
@@ -145,7 +137,6 @@ while user != "q":
             print_pretty(book)
             print("------------")
         
-
     elif user == "4": # GET BY GENRE
         key = "genre"
         for i, genre in enumerate(genres): 
@@ -182,17 +173,6 @@ while user != "q":
             bookshop.remove(book_to_update)
             book_to_update[key] = input("Nuevo valor: ")
             bookshop.append(book_to_update)
-
-    elif user == "7": # DELETE BOOK
-        book_id = input("ID: ")
-        for book in bookshop:
-            if book["id"] == book_id:
-                for k, v in book.items(): # IMPRIMIR LAS SPECS DEL LIBRO
-                    print(f"{k}: {v}")
-                user = input(f"The book {book['title']} will be erase from the db. Are you sure (Y/N)?: ")
-                if user.lower() == "y":
-                    bookshop.remove(book)
-                    print("The book was erased")
 
     elif user == "7": # DELETE BOOK TERCER ALTERNATIVA CON BOOK_BY_ID + I (indice)
         user = input("id: ")
