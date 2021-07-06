@@ -16,4 +16,4 @@
 	 b. type
 	 c. damage
 
- 3 . Crear un pequeño menú que permita simular una batalla pokemon
+ 3. Crear un pequeño menú que permita simular una batalla pokemon
