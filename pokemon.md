@@ -8,7 +8,7 @@
 	* type
 	* HP
 	* attacks []
-	* Métodos: attack, receive_damage
+	* Métodos: learn_attack, attack, receive_damage
 
 
  2. Crear clase Attack con los siguientes atributos
