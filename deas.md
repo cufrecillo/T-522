@@ -17,9 +17,9 @@ https://datos.comunidad.madrid/catalogo/dataset/35609dd5-9430-4d2e-8198-3eeb277e
    - Acceder
    - Salir
 2. Crear usuario:
-   - Que permita crear un usuario con campos nombre y contraseña (encriptada)
+   - Que permita crear un usuario con campos nombre, contraseña y fecha(encriptada)
    - Que sea guardado en otro JSON para USERS
-3. Acceder: (SOLO si la información concuerda con lo que el usuario ha colocado)
+3. Acceder:
    - Buscar DEA por código
    - Buscar DEA más cercano por posición
    - Modificar DEA por código
